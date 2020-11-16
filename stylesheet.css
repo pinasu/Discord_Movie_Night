@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+#title{
+	margin-top: 5vh;
+}
+
+#btn_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vh;
+}
+
+.blink{
+    animation:blink 1000ms infinite alternate;
+}
+
+#movie_list_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 130%;
+    padding-left: 10vw;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+    margin: 0 auto;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+.poster {
+	width: 150px;
+}
+
+.info_list {
+	font-size: 15px;
+	padding: 5px;
+}
+
+@keyframes blink {
+    from { opacity:1; }
+    to { opacity:0; }
+};
